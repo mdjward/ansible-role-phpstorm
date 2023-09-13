@@ -10,7 +10,5 @@
     reload: yes
 
 - include: configure-launchers.yml
-  static: no
 
 - include: configure-updates.yml
-  static: no

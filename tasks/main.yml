@@ -1,8 +1,6 @@
 ---
 # Setup/install tasks.
-- include: setup.yml
-  static: no
+- include_tasks: setup.yml
 
 # Configure tasks.
-- include: configure.yml
-  static: no
+- include_tasks: configure.yml

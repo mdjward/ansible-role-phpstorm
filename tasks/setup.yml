@@ -50,4 +50,4 @@
   file:
     dest: "{{ phpstorm_install_basepath }}/{{ phpstorm_install_prefix }}-{{ item }}"
     state: absent
-  with_items: "{{ phpstorm_cleanup_releases }}"
+  loop: "{{ phpstorm_cleanup_releases }}"
